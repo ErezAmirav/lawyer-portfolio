@@ -9,13 +9,14 @@ body {
 :root {
   --color-bg: #052A24;
   --color-bg-variant: #EDB96E;
+  --color-bg-variant-hover: #ccb18c;
   --color-bg-variant-trans: rgba(44, 44, 108, 0.4);
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
-  --transition: all 400ms ease;
+  --transition: all 300ms ease;
 
   --container-width-lg: 50%;
   --container-width-md: 86%;
@@ -28,6 +29,12 @@ button {
   font-size: 1rem;
   background-color: var(--color-bg-variant);
   color: black;
-  width: 10rem;
-  height: 2.2rem;
+  width: 12rem;
+  height: 3rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(0.95);
 }

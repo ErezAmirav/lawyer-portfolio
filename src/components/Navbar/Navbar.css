@@ -1,25 +1,27 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
+.nav-container {
+    background-color: var(--color-bg);
+    display: flex;
+    justify-content: center;
 }
 
 .nav {
-    background-color: var(--color-bg);
+    width: 80rem;
     color: var(--color-white);
     display: flex;
     justify-content: space-between;
     gap: 2rem;
     position: sticky;
     top: 0;
-    height: 4rem;
-    padding: 1rem 5rem;
+    height: 3rem;
+    padding: 1rem 10rem;
+    z-index: 3;
+
 }
 
 .nav-title {
     font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .nav ul {
@@ -27,9 +29,12 @@ body {
     margin: 0;
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
+
 }
 
 .nav li {
     font-weight: 200;
+    font-size: 1.2rem;
+    cursor: pointer;
 }

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lawyer-portfolio/static/css/main.6dc8ad96.css",
+    "main.js": "/lawyer-portfolio/static/js/main.7f97b5f5.js",
+    "static/media/lawyer-header.jpg": "/lawyer-portfolio/static/media/lawyer-header.0fb68df3019c4fd2bd92.jpg",
+    "static/media/lawyer-about.jpg": "/lawyer-portfolio/static/media/lawyer-about.9b9d9f90530ccd688a78.jpg",
+    "index.html": "/lawyer-portfolio/index.html",
+    "main.6dc8ad96.css.map": "/lawyer-portfolio/static/css/main.6dc8ad96.css.map",
+    "main.7f97b5f5.js.map": "/lawyer-portfolio/static/js/main.7f97b5f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dc8ad96.css",
+    "static/js/main.7f97b5f5.js"
+  ]
+}

@@ -5,14 +5,13 @@
     background-color: var(--color-bg);
     color: var(--color-white);
     padding: 4rem;
-
-    
 }
 
 .content-container {
     display: flex;
     align-items: center;
     width: 80rem;
+    margin-top: 5rem;
 }
 
 .text-container {
@@ -52,4 +51,8 @@
 .achiev {
     margin-top: 6rem;
     font-weight: 500;
+}
+
+.intro {
+    margin-top: 0rem;
 }

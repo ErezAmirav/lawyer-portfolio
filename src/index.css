@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -8,14 +9,10 @@ body {
 
 :root {
   --color-bg: #052A24;
-  --color-bg-variant: #EDB96E;
-  --color-bg-variant-hover: #ccb18c;
-  --color-bg-variant-trans: rgba(44, 44, 108, 0.4);
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-bg-variant: #f3f3f3;
+  --color-bg-button: #EDB96E;
+  --color-bg-button-hover: #ccb18c;
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
-
   --transition: all 300ms ease;
 
   --container-width-lg: 50%;
@@ -27,7 +24,7 @@ button {
   font-family: Poppins;
   border: none;
   font-size: 1rem;
-  background-color: var(--color-bg-variant);
+  background-color: var(--color-bg-button);
   color: black;
   width: 12rem;
   height: 3rem;

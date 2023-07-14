@@ -4,6 +4,9 @@
     align-items: center;
     background-color: var(--color-bg-variant);
     padding: 2rem;
+    background-image: url('../../assets/img/backImg2.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
 }
 
 .about_container h1 {
@@ -24,15 +27,16 @@
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
     max-width: 80rem;
     margin-bottom: 3rem;
+    margin-top: 4rem;
 }
 
 .box {
     background-color: var(--color-white);
     flex: 1;
-    padding: 1rem;
+    padding: 2rem 2rem 0rem 1.5rem;
     transition: var(--transition);
     /* border: solid 3px black; */
 }
@@ -58,9 +62,13 @@
     text-align: center;
 }
 
-.about_container img {
+.about-image {
     width: 995px;
     height: 480px;
     object-fit: cover;
     margin-top: 3rem;
+}
+
+.box-icons {
+    height: 2.5rem;
 }

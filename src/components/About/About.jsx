@@ -1,6 +1,10 @@
 import React from 'react';
 import './About.css';
 import AboutImg from '../../assets/img/lawyer-about.jpg'
+import CivilImg from '../../assets/img/civilImg.png'
+import EstateImg from '../../assets/img/estateImg.png'
+import IntellImg from '../../assets/img/IntellectualImg.png'
+
 const About = () => {
   return (
     <div className="about_container">
@@ -16,6 +20,7 @@ const About = () => {
       </div>
       <div className="boxes">
         <div className="box">
+          <img src={CivilImg} alt="" className='box-icons'/>
           <h2 className="box-title">Civil Litigation</h2>
           <p className="box-text">
             We Assist Individuals And Businesses In Safeguarding Their Creative
@@ -23,12 +28,14 @@ const About = () => {
           </p>
         </div>
         <div className="box">
+        <img src={EstateImg} alt="" className='box-icons'/>
           <h2 className="box-title">Estate Planning</h2>
           <p className="box-text">
             Your Wishes Are Honored With Our Through Estate Planning Services
           </p>
         </div>
         <div className="box">
+        <img src={IntellImg} alt="" className='box-icons'/>
           <h2 className="box-title">Intellectual Property</h2>
           <p className="box-text">
             Businesses In Safeguarding Their Creative Works And Trade Secrets.
@@ -40,7 +47,7 @@ const About = () => {
         Our Team Of Skilled Attorneys Combines Legal Knowledge
         <br /> With A Commitment To Delivering Results.
       </p>
-      <img src={AboutImg} alt=""/>
+      <img src={AboutImg} alt="" className='about-image'/>
     </div>
   );
 };

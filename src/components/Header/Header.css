@@ -5,6 +5,9 @@
     background-color: var(--color-bg);
     color: var(--color-white);
     padding: 4rem;
+    background-image: url('../../assets/img/backImg1.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
 
 .content-container {
@@ -55,4 +58,13 @@
 
 .intro {
     margin-top: 0rem;
+}
+
+.reward {
+    height: 5rem;
+}
+
+.rewards {
+    display: flex;
+    gap: 1rem;
 }

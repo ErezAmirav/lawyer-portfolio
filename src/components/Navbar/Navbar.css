@@ -20,6 +20,10 @@
     padding: 1rem 10rem;
 
 }
+.nav a {
+    text-decoration: none;
+    color: var(--color-white);
+}
 
 .nav-title {
     font-weight: 600;

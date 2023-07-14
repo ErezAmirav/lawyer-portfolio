@@ -7,8 +7,12 @@ const Navbar = () => {
       <nav className="nav">
         <span className="nav-title">Lawyers Inc.</span>
         <ul>
-          <li>Home</li>
-          <li>About</li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
           <li>Contact</li>
         </ul>
         <button>Call Now</button>

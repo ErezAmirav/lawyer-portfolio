@@ -6,6 +6,7 @@ import Reward2 from '../../assets/img/reward2.png';
 
 const Header = () => {
   return (
+    <header>
     <div className="header_container">
       <div className="content-container">
         <div className="text-container">
@@ -29,6 +30,7 @@ const Header = () => {
         </div>
       </div>
     </div>
+    </header>
   );
 };
 

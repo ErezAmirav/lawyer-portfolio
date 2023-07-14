@@ -21,8 +21,8 @@ const Header = () => {
           <button className="header-btn">Call Now</button>
           <p className="achiev">Our Achieved Awards</p>
           <div className="rewards">
-            <img src={Reward1} alt="" className="reward" />
-            <img src={Reward2} alt="" className="reward" />
+            <img src={Reward1} alt="" className="reward reward1" />
+            <img src={Reward2} alt="" className="reward reward2" />
           </div>
         </div>
         <div className="image-container">

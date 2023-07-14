@@ -13,6 +13,9 @@ const Navbar = () => {
           <li>
             <a href="#about">About</a>
           </li>
+          <li>
+            <a href="#reviews">Reviews</a>
+          </li>
           <li>Contact</li>
         </ul>
         <button>Call Now</button>

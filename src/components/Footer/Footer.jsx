@@ -91,7 +91,7 @@ const Footer = () => {
                 Company News
               </p>
             </a>
-            <div className="input">
+            <div className="input-box">
               <input
                 type="text"
                 placeholder="Example@gmail.com"

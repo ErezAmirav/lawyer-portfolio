@@ -68,12 +68,15 @@
     outline: none;
 }
 
+.input-box {
+    display: flex;
+}
+
 .input-btn {
     background-color: #B0B0B0;
     color: var(--color-white);
     font-weight: 400;
     border: none;
-    height: 100%;
     width: 5rem;
     cursor: pointer;
     font-family: Poppins;

@@ -24,7 +24,7 @@ html {
   scroll-behavior: smooth;
 }
 
-button {
+.main-button {
   font-family: Poppins;
   border: none;
   font-size: 1rem;
@@ -36,6 +36,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.main-button:hover {
   transform: scale(0.95);
 }

@@ -18,7 +18,7 @@ const Navbar = () => {
           </li>
           <li>Contact</li>
         </ul>
-        <button>Call Now</button>
+        <button className='main-button'>Call Now</button>
       </nav>
     </div>
   );

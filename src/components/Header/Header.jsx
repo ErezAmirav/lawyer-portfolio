@@ -18,7 +18,7 @@ const Header = () => {
             With a strong reputation for excellence and a track record of
             successful outcomes, we are here to protect your rights.
           </p>
-          <button className="header-btn">Call Now</button>
+          <button className="main-button header-btn">Call Now</button>
           <p className="achiev">Our Achieved Awards</p>
           <div className="rewards">
             <img src={Reward1} alt="" className="reward reward1" />

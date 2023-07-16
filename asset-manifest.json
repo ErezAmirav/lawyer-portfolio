@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/lawyer-portfolio/static/css/main.19003ae5.css",
-    "main.js": "/lawyer-portfolio/static/js/main.55604cb1.js",
+    "main.css": "/lawyer-portfolio/static/css/main.36d890a2.css",
+    "main.js": "/lawyer-portfolio/static/js/main.b13a7647.js",
     "static/media/lawyer-header.jpg": "/lawyer-portfolio/static/media/lawyer-header.0fb68df3019c4fd2bd92.jpg",
     "static/media/lawyer-about.jpg": "/lawyer-portfolio/static/media/lawyer-about.9b9d9f90530ccd688a78.jpg",
     "static/media/reward2.png": "/lawyer-portfolio/static/media/reward2.b65b5a3ce1e3a7f688ef.png",
     "static/media/reward1.png": "/lawyer-portfolio/static/media/reward1.694d19626d9f5c17a327.png",
     "static/media/backImg2.png": "/lawyer-portfolio/static/media/backImg2.54f9016415e95b96dc42.png",
     "index.html": "/lawyer-portfolio/index.html",
-    "main.19003ae5.css.map": "/lawyer-portfolio/static/css/main.19003ae5.css.map",
-    "main.55604cb1.js.map": "/lawyer-portfolio/static/js/main.55604cb1.js.map"
+    "main.36d890a2.css.map": "/lawyer-portfolio/static/css/main.36d890a2.css.map",
+    "main.b13a7647.js.map": "/lawyer-portfolio/static/js/main.b13a7647.js.map"
   },
   "entrypoints": [
-    "static/css/main.19003ae5.css",
-    "static/js/main.55604cb1.js"
+    "static/css/main.36d890a2.css",
+    "static/js/main.b13a7647.js"
   ]
 }

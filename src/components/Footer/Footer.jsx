@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="sb__footer-links">
           <div className="sb__footer-links-div">
             <h4>Lawyers Inc.</h4>
-            <a href="/">
+            <a href="/lawyer-portfolio">
               <div className="reviewer-details">
                 <FiPhoneCall className="footer-icon" />
                 <p>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </p>
               </div>
             </a>
-            <a href="/">
+            <a href="/lawyer-portfolio">
               <div className="reviewer-details">
                 <HiOutlineMail className="footer-icon" />
                 <p>
@@ -32,7 +32,7 @@ const Footer = () => {
                 </p>
               </div>
             </a>
-            <a href="/">
+            <a href="/lawyer-portfolio">
               <div className="reviewer-details">
                 <SlLocationPin className="footer-icon" />
                 <p>
@@ -46,19 +46,19 @@ const Footer = () => {
           </div>
           <div className="sb__footer-links-div">
             <h4>Help</h4>
-            <a href="/">
+            <a href="/lawyer-portfolio">
               <p>Costumer Support</p>
             </a>
-            <a href="/">
+            <a href="/lawyer-portfolio">
               <p>Terms & Conditions</p>
             </a>
-            <a href="/">
+            <a href="/lawyer-portfolio">
               <p>Privacy Policy</p>
             </a>
           </div>
           <div className="sb__footer-links-div">
             <h4>Social</h4>
-            <a href="/">
+            <a href="/lawyer-portfolio">
             <div className="social-link">
               <p>
                 <PiInstagramLogoFill className="social-icon" />
@@ -66,7 +66,7 @@ const Footer = () => {
               </p>
               </div>
             </a>
-            <a href="/">
+            <a href="/lawyer-portfolio">
             <div className="social-link">
               <p>
                 <BiLogoFacebook className="social-icon" />
@@ -74,7 +74,7 @@ const Footer = () => {
               </p>
               </div>
             </a>
-            <a href="/">
+            <a href="/lawyer-portfolio">
             <div className="social-link">
               <p>
                 <BiLogoTwitter className="social-icon" />
@@ -85,7 +85,7 @@ const Footer = () => {
           </div>
           <div className="sb__footer-links-div">
             <h4>Subscribe To Our Newsletter</h4>
-            <a href="/">
+            <a href="/lawyer-portfolio">
               <p>
                 The Latest Insights, Resources, Expert <br /> Opinions And
                 Company News

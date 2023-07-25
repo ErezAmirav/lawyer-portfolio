@@ -17,30 +17,30 @@ const Footer = () => {
             <a href="/lawyer-portfolio">
               <div className="reviewer-details">
                 <FiPhoneCall className="footer-icon" />
-                <p>
+                <span className='con-info'>
                   <p className="reviewer-name">Phone</p>
                   <p className="reviewer-company">(972) 5551245</p>
-                </p>
+                </span>
               </div>
             </a>
             <a href="/lawyer-portfolio">
               <div className="reviewer-details">
                 <HiOutlineMail className="footer-icon" />
-                <p>
+                <span className='con-info'>
                   <p className="reviewer-name">Email</p>
                   <p className="reviewer-company">Lawyers@inc.com</p>
-                </p>
+                </span>
               </div>
             </a>
             <a href="/lawyer-portfolio">
               <div className="reviewer-details">
                 <SlLocationPin className="footer-icon" />
-                <p>
+                <span className='con-info'>
                   <p className="reviewer-name">Address</p>
                   <p className="reviewer-company">
                     Heleni Hamalka 34, Jerusalem, Israel
                   </p>
-                </p>
+                </span>
               </div>
             </a>
           </div>

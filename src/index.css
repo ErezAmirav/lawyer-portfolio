@@ -39,3 +39,20 @@ html {
 .main-button:hover {
   transform: scale(0.95);
 }
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section>h2 {
+    margin-bottom: 2rem;
+  }
+}

@@ -10,7 +10,7 @@ const Reviews = () => {
   return (
     <section id="reviews">
       <div className="reviews_container">
-        <div className="content-container"></div>
+        {/* <div className="content-container"></div> */}
         <h1>What My Clients Are Saying</h1>
         <p className="second-text-info">
           With Our Client-Centered Approach, We Provide Personalized Legal
@@ -31,10 +31,10 @@ const Reviews = () => {
             </p>
             <div className="reviewer-details">
               <img src={YcImg} alt="" />
-              <p>
+              <span>
                 <p className="reviewer-name">Yossi Cohen</p>
                 <p className="reviewer-company">CEO Universal</p>
-              </p>
+              </span>
             </div>
           </div>
           <div className="review">
@@ -49,10 +49,10 @@ const Reviews = () => {
             </p>
             <div className="reviewer-details">
               <img src={OlImg} alt="" />
-              <p>
+              <span>
                 <p className="reviewer-name">Or Levy</p>
                 <p className="reviewer-company">CEO Terra</p>
-              </p>
+              </span>
             </div>
           </div>
           <div className="review">
@@ -68,10 +68,10 @@ const Reviews = () => {
             </p>
             <div className="reviewer-details">
               <img src={RtImg} alt="" />
-              <p>
+              <span>
                 <p className="reviewer-name">Ron Ten</p>
                 <p className="reviewer-company">CEO Lala</p>
-              </p>
+              </span>
             </div>
           </div>
           <div className="review">
@@ -87,10 +87,10 @@ const Reviews = () => {
             </p>
             <div className="reviewer-details">
               <img src={OiImg} alt="" />
-              <p>
+              <span>
                 <p className="reviewer-name">Ofira Insky</p>
                 <p className="reviewer-company">CEO Universal</p>
-              </p>
+              </span>
             </div>
           </div>
         </div>

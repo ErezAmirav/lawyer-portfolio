@@ -69,3 +69,10 @@
 .box-icons {
     height: 2.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .about-image {
+        width: 20rem;
+        height: auto;
+    }
+}

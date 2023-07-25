@@ -36,13 +36,6 @@
     font-size: 0.9rem;
 }
 
-.about-image {
-    width: 995px;
-    height: 480px;
-    object-fit: cover;
-    margin-top: 3rem;
-}
-
 .star-icon {
     color: #EDB96E;
 }

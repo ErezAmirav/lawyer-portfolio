@@ -75,3 +75,64 @@
 .reward2 {
     margin-top: 0.3rem;
 }
+
+.mobileIntro {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .header_container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .content-container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-container {
+        margin-right: 0;
+        margin-top: 1rem;
+
+        text-align: center;
+    }
+
+    .intro {
+        margin-top: 5rem;
+    }
+
+
+
+    .header-image {
+        height: 25rem;
+        margin-top: 1rem;
+    }
+
+    .text-container h1 {
+        font-size: 2rem;
+        position: relative;
+        margin: 0.5rem 0;
+        top: 0;
+    }
+
+    .achiev {
+        display: none;
+    }
+
+    .rewards {
+        display: none;
+    }
+
+    .mobileIntro {
+        display: block;
+        margin-bottom: 3rem;
+    }
+
+    .desktopIntro {
+        display: none;
+        margin: 0;
+    }
+}

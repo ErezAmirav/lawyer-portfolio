@@ -72,7 +72,9 @@
 .swiper {
     max-width: 80rem;
 }
-
+.extra-slide {
+display: none;
+}
 
 @media screen and (max-width: 768px) {
     .reviews_container {
@@ -98,9 +100,11 @@
 
     .review {
         padding: 1rem;
-        width: 20rem;
+        width: 19rem;
         user-select: none;
         margin-left: 10rem;
+
+        
     }
 
     .swiper {

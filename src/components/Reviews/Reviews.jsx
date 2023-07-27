@@ -12,13 +12,16 @@ import 'swiper/css';
 const Reviews = () => {
   const [spaceBet, setSpaceBet] = useState(50);
   const [slidePer, setSlidePer] = useState(4);
+  const [isAllowed, setIsAllowed] = useState(false);
   const updateSlider = () => {
     if (window.innerWidth >= 768) {
+      setIsAllowed(false);
       setSpaceBet(50);
       setSlidePer(4);
     } else {
+      setIsAllowed(true);
       setSpaceBet(5);
-      setSlidePer(1);
+      setSlidePer(2);
     }
   };
 
@@ -41,7 +44,12 @@ const Reviews = () => {
         </p>
 
         <div className="reviews">
-          <Swiper spaceBetween={spaceBet} slidesPerView={slidePer}>
+          <Swiper
+            spaceBetween={spaceBet}
+            slidesPerView={slidePer}
+            allowSlideNext={isAllowed}
+            allowSlidePrev={isAllowed}
+          >
             <SwiperSlide>
               <div className="review">
                 <BsStarFill className="star-icon" />
@@ -124,6 +132,7 @@ const Reviews = () => {
                 </div>
               </div>
             </SwiperSlide>
+            <SwiperSlide id="extra-slide"></SwiperSlide>
           </Swiper>
         </div>
       </div>

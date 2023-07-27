@@ -10,11 +10,11 @@ const About = () => {
     <section id="about">
       <div className="about_container">
         <div className="content-container">
-          <h1>
+          <h1 className='first-title'>
             Our Team of Skilled With <br />
             Extensive Knowledge.
           </h1>
-          <p>
+          <p className='first-text'>
             Whether You Are Facing A Challenging Legal Dispute,
             <br /> Seeking Guidance In A Business Matter, We Are Here To Help.
           </p>
@@ -43,7 +43,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <h1>Your Trusted Legal Advisors</h1>
+        <h1 className='second-title'>Your Trusted Legal Advisors</h1>
         <p className="second-text-info">
           Our Team Of Skilled Attorneys Combines Legal Knowledge
           <br /> With A Commitment To Delivering Results.

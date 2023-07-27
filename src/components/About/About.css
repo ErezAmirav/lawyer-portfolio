@@ -8,7 +8,12 @@
     background-repeat: no-repeat;
 }
 
-.about_container h1 {
+.first-title {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.second-title {
     font-weight: 500;
     font-size: 3rem;
 }
@@ -71,7 +76,44 @@
 }
 
 @media screen and (max-width: 768px) {
+    .first-title {
+        font-size: 1.5rem;
+    }
+
+    .content-container p {
+        font-size: 0.8rem;
+        text-align: center;
+        max-width: 80%;
+    }
+    .first-text br{
+        display: none;
+    }
+
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .box {
+        max-width: 70%;
+    }
+
+    .second-title {
+        font-size: 1.5rem;
+    }
+
+    .second-text-info {
+        font-size: 0.8rem;
+        text-align: center;
+        max-width: 80%;
+    }
+    .second-text-info br {
+        display: none;
+    }
+
     .about-image {
+        margin-top: 0;
         width: 20rem;
         height: auto;
     }

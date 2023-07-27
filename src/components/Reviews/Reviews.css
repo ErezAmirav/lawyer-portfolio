@@ -14,6 +14,10 @@
     font-weight: 500;
 }
 
+.reviews-title-text {
+    text-align: center;
+}
+
 
 .reviews {
     display: flex;
@@ -27,7 +31,6 @@
 
 .review {
     flex: 1;
-    /* padding: 2rem 0rem 0rem 1.5rem; */
     transition: var(--transition);
 }
 
@@ -64,4 +67,45 @@
 .reviewer-company {
     font-size: 0.9rem;
     font-weight: 300;
+}
+
+.swiper {
+    max-width: 80rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .reviews_container {
+        overflow: hidden;
+    }
+
+    .reviews_container h1 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .reviews-title-text {
+        font-size: 0.8rem;
+    }
+
+    .reviews-title-text br {
+        display: none;
+    }
+
+    .reviews {
+        cursor: grab;
+    }
+
+    .review {
+        padding: 1rem;
+        width: 20rem;
+        user-select: none;
+        margin-left: 10rem;
+    }
+
+    .swiper {
+        max-width: 50%;
+
+    }
+
 }
